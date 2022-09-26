@@ -7,24 +7,60 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TP1 My g</title>
     <link rel="stylesheet" href="style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <header>
         <h1>
             <div class="parent">
-                <div>BTM</div>
-                <div>Chaussures</div>
-                <div>Mobilier</div>
-                <div>Fruits</div>
-                <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" viewBox="0 0 24 24" fill="none"
-                    stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+
+                <div class="BTM">BTM</div>
+                <div class="enfant">Chaussures</div>
+                <div class="enfant">Mobilier</div>
+                <div class="enfant">Fruits</div>
+                <svg class="loupe" xmlns="http://www.w3.org/2000/svg" width="45" height="45" viewBox="0 0 24 24"
+                    fill="none" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
                     <circle cx="11" cy="11" r="8"></circle>
                     <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" viewBox="0 0 24 24" fill="none"
+                    stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="10" cy="20.5" r="1" />
+                    <circle cx="18" cy="20.5" r="1" />
+                    <path d="M2.5 2.5h3l2.7 12.4a2 2 0 0 0 2 1.6h7.7a2 2 0 0 0 2-1.6l1.6-8.4H7.1" />
                 </svg>
             </div>
         </h1>
     </header>
+    <div>Fruits > Agrumes</div>
+    <div class="flex">
+        <div class="image"><img src="img/citron.png" alt="citron" width="40%"> </div>
+        <div class="détail"> Citron vert
+            <div>Calibre 4/5</div>
+            <div>La lime, lime acide ou citron vert est un agrume. C'est le fruit du limettier, arbuste de la famille
+                des
+                Rutacées, dont il existe deux espèces: <br> Citrus latifolia et Citrus aurantiifolia.</div>
+            <form>
+                <label>
+                    <input type="number" placeholder="0" required>
+                </label>
+                <label class="submit">
+                    <input type="submit" value="Ajouter au panier">
+                </label>
+            </form>
+        </div>
+
+    </div>
+    <div>Caractéristiques:</div>
+    <ul>
+        <li>vert,</li>
+        <li>piquant,</li>
+        <li>plein de vitamines.</li>
+    </ul>
+    <div class="gras">Plus de détails</div>
 </body>
 
 </html>

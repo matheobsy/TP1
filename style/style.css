@@ -1,0 +1,56 @@
+header{
+    background-color: rgb(0, 180, 235);
+    padding: 1px;
+    font-family: 'Roboto', sans-serif;
+    border-bottom: 5px solid black;
+    color: white;
+}
+body{
+    margin: 0%;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(245, 245, 245);
+}
+.parent{
+    display: flex;
+    gap: 40px;
+    
+}
+.loupe{
+   margin-left: auto;
+   
+}
+.BTM{
+    font-size: larger;
+    margin-left: 10px;
+    font-family: 'Roboto', sans-serif;
+   
+}
+.enfant{
+    margin-left: 50px;
+}
+.image{
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+}
+.gras{
+    font-weight: bold;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+}
+.détail{
+    background-color: white;
+    margin-right: 200px;
+    padding: 20px;
+    border-radius: 30px;
+    width: 300px;
+}
+div{
+    margin-left: 40px;
+margin-top: 10px;
+}
+ul{
+    margin-left: 50px;
+}
